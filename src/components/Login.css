@@ -3,7 +3,7 @@ form {
    padding: 20px;
    border-radius: 5px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-   width: 300px;
+   width: 30px;
    margin: 0 auto;
    
  }
@@ -21,7 +21,7 @@ form {
  
  input[type="text"],
  input[type="password"] {
-   width: 100%;
+   width: 300px;
    padding: 10px;
    margin-bottom: 10px;
    border: 1px solid #ccc;
@@ -35,7 +35,7 @@ form {
    border-radius: 3px;
    padding: 10px 20px;
    cursor: pointer;
-   width: 100%;
+   width: 300px;
  }
  
  button[type="submit"]:hover {

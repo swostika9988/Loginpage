@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import "./Login.css"
-import Home from '../pages/Home';
 
-function Login() {
+function LoginPage() {
   const [username,setUsername]=useState("");
   const [password,setPassword] = useState("");
   const [valid,setValid] = useState("");
@@ -16,9 +15,6 @@ function Login() {
   
   return (
     
-      valid? <Home/> :
-    
-    
     <>
      <div>
        <label htmlFor="username">Username</label>
@@ -31,12 +27,11 @@ function Login() {
        <input type="password" 
        onChange={(e)=>setPassword(e.target.value)}
        />
-       
      </div>
-     <button onClick={handleSubmit}>Login</button>
+     <button type='submit'>Login</button>
         
    </>
   )
 }
 
-export default Login
+export default LoginPage
