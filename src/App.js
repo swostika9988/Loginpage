@@ -1,12 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Login from './components/Login';
+ import Login from './components/Login';
+import MultipleInputs from './components/form/MultipleInputs';
 
 function App() {
   return (
     <div>
-      <Login/>
+       {/* <Login/>  */}
+      <MultipleInputs />
+
     </div>
+  
   );
 }
 
